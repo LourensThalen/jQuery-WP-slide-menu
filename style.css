@@ -1,0 +1,140 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: sans-serif;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+header {
+  border-bottom: 1px solid #000;
+  float: left;
+  width: 100%;
+}
+
+#logo {
+  padding: 25px;
+  float: left;
+}
+
+
+nav.primary {
+  float: right;
+  margin-right: 30px;
+}
+
+nav.primary ul.menu {
+	float: left;
+}
+
+nav.primary li {
+	position: relative;
+  display: inline;
+  float: left;
+}
+
+nav.primary li a {
+	float: left;
+	padding: 35px 15px;
+	color: #333;
+	font-size: 15px;
+	line-height: 20px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+nav.primary li.current a {
+	color: #aaa;
+}
+
+nav.primary li a:hover {
+	color: #333;
+}
+
+nav.primary li a:active {
+	color: #333;
+}
+
+nav.primary .sub-menu {
+  width: 500px;
+  position: absolute;
+  top: 90px;
+  text-align: center;
+  left: -250px;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+nav.primary .sub-menu li {
+  float: none;
+  display: inline;
+}
+
+nav.primary .sub-menu li a {
+  padding: 15px 15px;
+  float: none;
+  display: inline-block;
+}
+
+.menu-filler {
+  width: 100%;
+  border-top: 1px solid #000;
+  height: 50px;
+  float: left;
+  display: none;
+}
+
+.block {
+  width: 40%;
+  height: 300px;
+  float: left;
+  background: #ccc;
+  margin: 2.5%;
+  padding: 2.5%;
+}
